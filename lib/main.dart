@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:project_one/screens/bottom_screen.dart';
+import 'package:project_one/screens/gameScreen.dart';
+import 'package:project_one/widgets/game_listview.dart';
 
 void main() {
   runApp(const myApp());
@@ -13,7 +16,7 @@ class myApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: "Sample App",
-      home: GameScreen(),
+      home: BottomScreen(),
     );
   }
 }

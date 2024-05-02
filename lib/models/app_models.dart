@@ -1,27 +1,38 @@
 // ignore_for_file: public_member_api_docs, sort_constructors_first
-class Promo {
+class DateAppList {
+  String img;
+  String title;
+  String rate;
+  DateAppList({
+    required this.img,
+    required this.title,
+    required this.rate,
+  });
+}
+
+class AppPromo {
   String img;
   String button;
   String title;
   String icon;
-  String gameName;
+  String appName;
   String subtitle;
   String status;
-  Promo({
+  AppPromo({
     required this.img,
     required this.button,
     required this.title,
     required this.icon,
-    required this.gameName,
+    required this.appName,
     required this.subtitle,
     required this.status,
   });
 }
 
-class Games1 {
-  String gameName1;
-  String gameName2;
-  String gameName3;
+class Apps1 {
+  String appName1;
+  String appName2;
+  String appName3;
   String sub1;
   String rate1;
   String size1;
@@ -34,10 +45,10 @@ class Games1 {
   String icon1;
   String icon2;
   String icon3;
-  Games1({
-    required this.gameName1,
-    required this.gameName2,
-    required this.gameName3,
+  Apps1({
+    required this.appName1,
+    required this.appName2,
+    required this.appName3,
     required this.sub1,
     required this.rate1,
     required this.size1,
